@@ -1,0 +1,53 @@
+.userInfo {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  .user {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    img {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+  }
+
+  .icons {
+    display: flex;
+    gap: 20px;
+
+    img {
+      width: 20px;
+      height: 20px;
+    }
+  }
+}
+
+.logout {
+  position: absolute;
+  top: 90%;
+  left: 21px;
+  margin-top: 5px;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px 20px;
+  z-index: 10;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+.logout button {
+  background: none;
+  border: none;
+  color: #333; /* Màu chữ của nút */
+  cursor: pointer;
+  padding: 5px 10px;
+  font-size: 18px;
+}
+.logout button:hover {
+  color: #000000; /* Màu chữ khi hover */
+}
